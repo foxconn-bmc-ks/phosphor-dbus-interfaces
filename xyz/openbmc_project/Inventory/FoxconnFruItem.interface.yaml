@@ -94,32 +94,5 @@ properties:
       type: string
       description: >
           Foxconn FRU Product Info:Custom Information
-#=============================================
-#    Foxconn Internal Use Area properties
-#=============================================
-    - name: MACAddressByte1
-      type: string
-      description: >
-          Foxconn Internal Use Area:MAC Address Byte 1
-    - name: MACAddressByte2
-      type: string
-      description: >
-          Foxconn Internal Use Area:MAC Address Byte 2
-    - name: MACAddressByte3
-      type: string
-      description: >
-          Foxconn Internal Use Area:MAC Address Byte 3
-    - name: MACAddressByte4
-      type: string
-      description: >
-          Foxconn Internal Use Area:MAC Address Byte 4
-    - name: MACAddressByte5
-      type: string
-      description: >
-          Foxconn Internal Use Area:MAC Address Byte 5
-    - name: MACAddressByte6
-      type: string
-      description: >
-          Foxconn Internal Use Area:MAC Address Byte 6
 
 # vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
