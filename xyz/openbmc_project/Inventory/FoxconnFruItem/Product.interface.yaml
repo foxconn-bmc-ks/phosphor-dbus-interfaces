@@ -1,0 +1,48 @@
+description: >
+    Implement to provide for G2 with Product Info.
+properties:
+#=============================================
+#    Foxconn FRU Product Info properties
+#=============================================
+    - name: ProductManufacturerName
+      type: string
+      description: >
+          Foxconn FRU Product Info:Manufacturer Name
+    - name: ProductName
+      type: string
+      description: >
+          Foxconn FRU Product Info:Product Name
+    - name: ProductPartNumber
+      type: string
+      description: >
+          Foxconn FRU Product Info:Part/Model Number
+    - name: ProductVersion
+      type: string
+      description: >
+          Foxconn FRU Product Info:Product Version
+    - name: ProductSerialNumber
+      type: string
+      description: >
+          Foxconn FRU Product Info:Product Serial Number
+    - name: ProductAssetTag
+      type: string
+      description: >
+          Foxconn FRU Product Info:Asset Tag
+    - name: ProductFRUFileID
+      type: string
+      description: >
+          Foxconn FRU Product Info:FRU File ID
+    - name: ProductExtraRackID
+      type: string
+      description: >
+          Foxconn FRU Product Info:Product Extra Rack ID
+    - name: ProductExtraNodeID
+      type: string
+      description: >
+          Foxconn FRU Product Info:Product Extra Node ID
+    - name: ProductCustomInformation
+      type: string
+      description: >
+          Foxconn FRU Product Info:Custom Information
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4

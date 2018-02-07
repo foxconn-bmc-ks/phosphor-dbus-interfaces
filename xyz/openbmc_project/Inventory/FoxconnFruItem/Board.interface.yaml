@@ -1,0 +1,36 @@
+description: >
+    Implement to provide for G2 with Board Info.
+properties:
+#=============================================
+#    Foxconn FRU Board Info properties
+#=============================================
+    - name: BoardManufacturingDate
+      type: string
+      description: >
+          Foxconn FRU Board Info:Manufacturing Date/Time
+    - name: BoardManufacturer
+      type: string
+      description: >
+          Foxconn FRU Board Info:Board Manufacturer
+    - name: BoardProductName
+      type: string
+      description: >
+          Foxconn FRU Board Info:Board Product Name
+    - name: BoardSerialNumber
+      type: string
+      description: >
+          Foxconn FRU Board Info:Board Serial Number
+    - name: BoardPartNumber
+      type: string
+      description: >
+          Foxconn FRU Board Info:Board Part Number
+    - name: BoardFRUFileID
+      type: string
+      description: >
+          Foxconn FRU Board Info:FRU File ID
+    - name: BoardCustomInformation
+      type: string
+      description: >
+          Foxconn FRU Board Info:Custom Information
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4

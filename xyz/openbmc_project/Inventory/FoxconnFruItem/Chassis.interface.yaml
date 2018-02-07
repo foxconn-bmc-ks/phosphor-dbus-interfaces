@@ -1,0 +1,24 @@
+description: >
+    Implement to provide for G2 with Chassis Info
+properties:
+#=============================================
+#    Foxconn FRU Chassis Info properties
+#=============================================
+    - name: ChassisPartNumber
+      type: string
+      description: >
+          Foxconn FRU Chassis Info:Chassis Part Number
+    - name: ChassisSerialNumber
+      type: string
+      description: >
+          Foxconn FRU Chassis Info:Chassis Serial Number
+    - name: ChassisExtra1UUID
+      type: string
+      description: >
+          Foxconn FRU Chassis Info:Chassis Extra 1 UUID
+    - name: ChassisCustomInformation
+      type: string
+      description: >
+          Foxconn FRU Chassis Info:Custom Information
+
+# vim: tabstop=8 expandtab shiftwidth=4 softtabstop=4
