@@ -1,0 +1,60 @@
+description: >
+    Simple definition of a BIOS Pnor Info.
+properties:
+    - name: BuildVersion
+      type: string
+      description: >
+        The build version identifier.
+    - name: BuildRootVersion
+      type: string
+      description: >
+        The buildroot viersion identifier.
+    - name: SkiBootVersion
+      type: string
+      description: >
+        The skiboot version identifier.
+    - name: HostBootVersion
+      type: string
+      description: >
+        The hostboot version identifier.
+    - name: LinuxVersion
+      type: string
+      description: >
+        The linux version identifier.
+    - name: PetitBootVersion
+      type: string
+      description: >
+        The peritboot version identifier.
+    - name: MachineVersion
+      type: string
+      description: >
+        The machine version identifier.
+    - name: OccVersion
+      type: string
+      description: >
+        The occ version identifier.
+    - name: HostBootBinVersion
+      type: string
+      description: >
+        The hostboot version identifier.
+    - name: CappVersion
+      type: string
+      description: >
+        The capp version identifier.
+    - name: SbeVersion
+      type: string
+      description: >
+        The sbe version identifier.
+    - name: PnorPurpose
+      type: enum[self.PnorVersionPurpose]
+      description: >
+        The purpose of the version.  As in, what can it be used for or
+        applied to?
+enumerations:
+    - name: PnorVersionPurpose
+      description: >
+        An enumeration of possible purposes of the version.
+      values:
+        - name: BIOS
+          description: >
+            The version is of bios purpose.
