@@ -1,6 +1,10 @@
 description: >
     Simple definition of a BIOS Pnor Info.
 properties:
+    - name: BIOSVersion
+      type: string
+      description: >
+        The bios version identifier.
     - name: BuildVersion
       type: string
       description: >
